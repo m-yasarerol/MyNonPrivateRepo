@@ -16,3 +16,17 @@ ameliyatlar = " ameliyat a, ameliyat b, ameliyat c, ameliyat d, ameliyat f, amel
 print(ameliyatlar)
 ameliyatlarstructed = ameliyatlar.split(", ")
 print(ameliyatlarstructed)
+
+AÇIKLAMA
+proje 1 temel denemesidir. öncelikle metin ifadeyi(asıl projedeki metin ifade daha uzun olacaktır.) liste formatına modellerim.
+proje onayı:
+1-listedekiki verileriler alfabetik olarak sıralanacak, 
+2- alfabetik olarak sıralanan alta yüceltilecek (örnek olarak:
+         bir ameliyatlar için:
+              yazdır(a)
+3- alta yazdırılan yapılacak madde uygulanacak
+4- proje 1 sonu.
+    PROJE 2 TASLAĞI
+- Proje 2, proje 1'in devamı niteliğindedir.
+- proje 2, kullanıcıdan veri kümesine veri döndüren küçük bir uygulama olacak.
+- Plan: kodfen adındaki kullanıcıya ait "lütfen" adında bir kullanıcıya "lütfen" adında bir kullanıcıyı döndürecek, kullanıcılanan tasarımında o işleminde liste elemanları içinde aranacak, burada liste elemanları içinde var ise kaçıncı liste elemanıdır, eğer yoksa "üzgünüz, yazdıracak" bu ameliyat hizmetimizde hastanemizde verilmiyor." şeklinde bir değer döndürecek.
