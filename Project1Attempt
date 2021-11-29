@@ -1,0 +1,18 @@
+
+
+isimler = ["ahmet", "mahmut", "emre"]
+print(isimler)
+isimler2 = "/".join(isimler)
+print(isimler2)
+isimler3 = isimler2.split("/")
+print(isimler3)
+
+isimler4 = "ahmet, mahmut, emre"
+print(isimler4)
+isimler5 = isimler4.split(", ")
+print(isimler5)
+
+ameliyatlar = " ameliyat a, ameliyat b, ameliyat c, ameliyat d, ameliyat f, ameliyat g, ameliyat h, ameliyat i, ameliyat j amelyat f,  amelyat g, ameliyat a, ameliyat b, ameliyat c, ameliyat d, ameliyat f, ameliyat g, ameliyat h, ameliyat i, ameliyat j amelyat f,  amelyat g, ameliyat a, ameliyat b, ameliyat c, ameliyat d, ameliyat f, ameliyat g, ameliyat h, ameliyat i, ameliyat j amelyat f,  amelyat g, ameliyat a, ameliyat b, ameliyat c, ameliyat d, ameliyat f, ameliyat g, ameliyat h, ameliyat i, ameliyat j amelyat f,  amelyat g, ameliyat a, ameliyat b, ameliyat c, ameliyat d, ameliyat f, ameliyat g, ameliyat h, ameliyat i, ameliyat j amelyat f,  amelyat g, ameliyat a, ameliyat b, ameliyat c, ameliyat d, ameliyat f, ameliyat g, ameliyat h, ameliyat i, ameliyat j amelyat f,  amelyat g, ameliyat a, ameliyat b, ameliyat c, ameliyat d, ameliyat f, ameliyat g, ameliyat h, ameliyat i, ameliyat j amelyat f,  amelyat g, ameliyat a, ameliyat b, ameliyat c, ameliyat d, ameliyat f, ameliyat g, ameliyat h, ameliyat i, ameliyat j amelyat f,  amelyat g, ameliyat a, ameliyat b, ameliyat c, ameliyat d, ameliyat f, ameliyat g, ameliyat h, ameliyat i, ameliyat j amelyat f,  amelyat g, ameliyat a, ameliyat b, ameliyat c, ameliyat d, ameliyat f, ameliyat g, ameliyat h, ameliyat i, ameliyat j amelyat f,  amelyat g,"
+print(ameliyatlar)
+ameliyatlarstructed = ameliyatlar.split(", ")
+print(ameliyatlarstructed)
