@@ -1,0 +1,13 @@
+# projenin taslağı hazır. geriye sadece ameliyat isimlerini tanımlamak kaldı.
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+isimler =  "Emir, Yağız, Ege, Çağan, Sarp, Kerem, Deniz, Kağan, Mert, Görkem Burak, Meriç, Berke, Efe, Doruk, Bartu, Emirhan, Alp, Cem, Yiğit, Emre, Kutay, Tuna, Baran, Arhan, Canberk, Dağhan, Bora, Rüzgâr, Derin, Toprak, Arın, Aşkın, Çınar, Koray, Barlas, Ada, Atakan, Berk, Polat, Serhan, Utku, Berkay, Onur, Çağlar, Can, Tuğra, Şah, Göktürk, Ali"
+isimlerlistesi = isimler.split(", ")
+a = input("isim gir.")
+mesaj = "Evet, bu hizmeti veriyoruz, "
+mesaj2 = "hayır, hizmetimiz mevcut deil"
+
+if a in isimlerlistesi: 
+    print(mesaj + str(isimlerlistesi.index(a)) + ". polikliniğimize başvuruda bulunabilirsiniz. Sizi bekliyor olacağız!")
+else:
+    print(mesaj2)
