@@ -10,3 +10,14 @@ print(a in isimlerlistesi)
 bu yapıyı projemde nasıl kullanacağım?
 projemde isimler yerine  ameliyat isimleri olacak, kullanıcı bir ameliyat ismi girdiğinde ture değil de "evet, bu hizmeti veriyoruz" diyecek.
 
+#kullanıcıya vereceği cevaba göre nasıl farklı deperler döndürecepim (if-else ile)
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+isimler =  "Emir, Yağız, Ege, Çağan, Sarp, Kerem, Deniz, Kağan, Mert, Görkem Burak, Meriç, Berke, Efe, Doruk, Bartu, Emirhan, Alp, Cem, Yiğit, Emre, Kutay, Tuna, Baran, Arhan, Canberk, Dağhan, Bora, Rüzgâr, Derin, Toprak, Arın, Aşkın, Çınar, Koray, Barlas, Ada, Atakan, Berk, Polat, Serhan, Utku, Berkay, Onur, Çağlar, Can, Tuğra, Şah, Göktürk, Ali"
+isimlerlistesi = isimler.split(", ")
+a = input("isim gir.")
+if a in isimlerlistesi:
+    print("evet, bu hizmeti veriyoruz")
+else:
+        print("ne yazık ki bu ameliyat hizmetimiz bulunmamaktadır. sizi en yakın hastaneye yönlendireceğiz.")
+
