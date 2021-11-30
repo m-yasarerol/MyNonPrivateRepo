@@ -6,3 +6,7 @@ isimlerlistesi = isimler.split(", ")
 print(isimlerlistesi)
 a = input("isim gir.")
 print(a in isimlerlistesi)
+
+bu yapıyı projemde nasıl kullanacağım?
+projemde isimler yerine  ameliyat isimleri olacak, kullanıcı bir ameliyat ismi girdiğinde ture değil de "evet, bu hizmeti veriyoruz" diyecek.
+
