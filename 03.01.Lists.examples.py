@@ -1,4 +1,4 @@
-    ÇÖZERKEN ZORLANDIĞIM SORULAR: 9 VE 10. SORU
+# ÇÖZERKEN ZORLANDIĞIM SORULAR: 9 VE 10. SORU
     
 # 1- "Bmw, Mercedes, Opel, Mazda" elemanlarına sahip bir liste oluşturunuz.
 markalar = "Bmw, Mercedes, Opel, Mazda".split()
