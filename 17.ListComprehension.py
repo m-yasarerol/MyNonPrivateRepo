@@ -85,7 +85,7 @@ list2 = [2,3,6,9,5]
 # mevcut bilgimiz ile:
 list3 = []
 for i in list1:
-    for i not in list2:                     # syntax hatası aldım, nedenini bilmiyorum.
+    if i not in list2:                     
         list3.append(i * i)
 print(list3)
 # list comprehension ile:
