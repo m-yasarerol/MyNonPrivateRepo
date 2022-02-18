@@ -39,7 +39,7 @@ def hesaplamalar(x):
 
 print(hesaplamalar(6))      # Karesi: 36 Karek�k�:2.449489742783178 Fakt�reiyel: 720
 # 6, hem x'in hem a nın yerine geldi. a ' nın yerine ne koyarsan koy değişmez
-print(kare_al(6))   # fonks.yona dışarıdan ulaşamıyorum. o fonksiyon hesaplamalar bloğunun içinde
+#print(kare_al(6))   # fonks.yona dışarıdan ulaşamıyorum. o fonksiyon hesaplamalar bloğunun içinde
 
 def toplam_carpim(*args):
     def toplama(demet):         # dışarıya değer döndürmez
