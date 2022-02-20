@@ -3,7 +3,6 @@
 # filter fonksiyonu da map fonksiyonu gibi bizden parametre olarak bir fonk. ve bir liste alıyor. ancak burada fonksiyonum, true veya false değer
 # döndüren bir fonksiyon olması gerekiyor. ve o listedeki elemanları teker teker bu fonksiyona gönderiyor, true değerini döndüren elemanlarla
 # yani bizim istediğimiz koşulu sağlayan elemanlar ile yeni bir liste oluşturuyor. 
-from unittest import findTestCases
 
 liste = [1,2,3,5,6,8,11,17,123,101]
 # ben bunları belirli kurallara göre filtreleyeceğim
